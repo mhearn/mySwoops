@@ -8,6 +8,5 @@ doc/
 .project
 .DS_Store
 tmp/
-Gemfile
 Gemfile.lock
 .autotest

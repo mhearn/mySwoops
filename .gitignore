@@ -8,5 +8,6 @@ doc/
 .project
 .DS_Store
 tmp/
-Gemfile*.*
+Gemfile
+Gemfile.lock
 *.watchr

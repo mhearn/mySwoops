@@ -1,18 +1,18 @@
 class PagesController < ApplicationController
   
   def home
-    @title="mySwoops | Home"
+    @title="Home"
   end
 
   def contact
-    @title="mySwoops | Contact Us"
+    @title="Contact Us"
   end
 
   def about
-    @title="mySwoops | About Us"
+    @title="About Us"
   end
 
   def faq
-    @title="mySwoops | FAQ"
+    @title="FAQ"
   end
 end

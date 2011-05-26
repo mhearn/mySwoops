@@ -10,4 +10,4 @@ doc/
 tmp/
 Gemfile
 Gemfile.lock
-.watchr
+.autotest

@@ -10,4 +10,6 @@ end
 group :test do
   gem 'webrat'
   gem 'rspec'
+  gem 'watchr'
+  gem 'spork', '0.9.0.rc5'
 end

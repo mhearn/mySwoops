@@ -1,7 +1,7 @@
 MySwoops::Application.routes.draw do
-  match '/contact', :to => 'pages/contact'
-  match '/about',   :to => 'pages/about'
-  match '/faq',     :to => 'pages/faq'
+  match '/contact', :to => 'pages#contact'
+  match '/about',   :to => 'pages#about'
+  match '/faq',     :to => 'pages#faq'
   
   root :to => 'pages#home'
 

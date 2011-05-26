@@ -1,12 +1,3 @@
-# def growl
-  # title = "Watchr Test Results"
-  # image = $?.success? ? "~/.watchr/images/passed.png" : "~/.watchr/images/failed.png"
-  # message = $?.success? ? "success" : "failed"
-  # growlnotify = `which growlnotify`.chomp
-  # options = "-w -n Watchr --image '#{File.expand_path(image)}' -m '#{message}' '#{title}'"
-  # system %(#{growlnotify} #{options} &)
-# end
-
 def run(cmd)
   puts cmd
   system(cmd)
